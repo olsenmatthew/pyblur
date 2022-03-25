@@ -8,7 +8,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(name='pyblur',
-      version='0.2.3',
+      version='0.2.4',
       description='Image blurring routines',
       long_description=long_description,
       keywords='blur',
@@ -19,7 +19,7 @@ setup(name='pyblur',
           'Intended Audience :: Science/Research',
           'Programming Language :: Python :: 3.9',
           'Topic :: Multimedia :: Graphics'],
-      url='http://github.com/lospooky/pyblur',
+      url='https://github.com/olsenmatthew/pyblur',
       author='lospooky',
       author_email='my.accounts@gmx.se',
       license='MIT',
