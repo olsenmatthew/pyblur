@@ -4,7 +4,7 @@ from scipy.signal import convolve2d
 
 boxKernelDims = [3,5,7,9]
 
-def BoxBlur_random(img):
+def BoxBlurRandom(img):
     kernelidx = np.random.randint(0, len(boxKernelDims))    
     kerneldim = boxKernelDims[kernelidx]
     return BoxBlur(img, kerneldim)

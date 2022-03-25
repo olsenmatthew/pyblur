@@ -25,7 +25,7 @@ Blurs image using a Gaussian Kernel
 
 Randomized kernel bandwidth (between 0.5 and 3.5)
 
-    blurred = GaussianBlur_random(img)
+    blurred = GaussianBlurRandom(img)
 
 ###Defocus (Disk) Blur
 Blurs image using a Disk Kernel
@@ -34,7 +34,7 @@ Blurs image using a Disk Kernel
 
 Randomized kernel size (between 3 and 9)
 
-	blurred = DefocusBlur_random(img)
+	blurred = DefocusBlurRandom(img)
 
 
 ###Box Blur
@@ -44,7 +44,7 @@ Blurs image using a Box Kernel
 
 Randomized kernel size (between 3 and 9)
 
-	blurred = BoxBlur_random(img)
+	blurred = BoxBlurRandom(img)
 
 
 ###Linear Motion Blur
@@ -59,7 +59,7 @@ Blurs image using a Line Kernel
 
 Randomized kernel size, angle, and line type
 
-	blurred = LinearMotionBlur_random(img)
+	blurred = LinearMotionBlurRandom(img)
 
 ### PSF Blur
 Blurs image using one of the Point Spread Functions (Kernels) used in:<br>
@@ -73,7 +73,7 @@ Blurs image using one of the Point Spread Functions (Kernels) used in:<br>
 
 Randomized kernel size, angle, and line type
 
-	blurred = PsfBlur_random(img)
+	blurred = PsfBlurRandom(img)
 
 
 ###Random Blur
